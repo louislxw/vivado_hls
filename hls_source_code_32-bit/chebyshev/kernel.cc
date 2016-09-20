@@ -15,7 +15,7 @@ void kernel(
 	{
 		i_0 = stream_i0.read();
 
-       	#pragma HLS pipeline II=6
+       	#pragma HLS pipeline II=1
 		temp_0 = 16 * i_0 * i_0 - 20;
 		temp_1 = temp_0 * i_0 * i_0 + 5;
 	
